@@ -91,5 +91,8 @@ server {
     }
 }' | sudo tee -a /etc/nginx/sites-available/web_demo
 sudo /etc/init.d/nginx restart
+
+source ~/.bashrc # Update shell 
+sudo ldconfig
 #start with GPU support
 python examples/web_demo/app.py -g
