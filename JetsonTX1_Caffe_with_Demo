@@ -1,10 +1,13 @@
 #!/bin/sh
 # Some of the instructions taken from https://github.com/jetsonhacks/installCaffeJTX1
-# Install git
-sudo apt-get install -y git
+
 
 sudo add-apt-repository universe
 sudo apt-get update -y
+
+# Install git
+sudo apt-get install -y git
+
 /bin/echo -e "\e[1;32mLoading Caffe Dependencies.\e[0m"
 sudo apt-get install cmake -y
 # General Dependencies
@@ -55,7 +58,7 @@ cd ..
 
 make pycaffe -j3
 make all -j3
-make test -j3
+# make test -j3
 make runtest -j3
 make distribute
 
