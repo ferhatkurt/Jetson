@@ -95,4 +95,5 @@ sudo /etc/init.d/nginx restart
 source ~/.bashrc # Update shell 
 sudo ldconfig
 #start with GPU support
+/bin/echo -e "\e[1;32mStarting Caffe Web Demo, visit localhost\e[0m"
 python examples/web_demo/app.py -g
