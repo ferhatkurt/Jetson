@@ -2,14 +2,11 @@
 
 <h3>Install Caffe with Web Demo for Jetson TX1 - 32bit</h3>
 
-<code>$ git clone https://github.com/ferhatkurt/Jetson.git
+<code>$ git clone https://github.com/ferhatkurt/Jetson.git</code>
+<code>$ cd Jetson</code>
+<code>$ chmod +x JetsonTX1_Caffe_with_Demo.sh</code>
+<code>$ ./JetsonTX1_Caffe_with_Demo.sh</code>
 
-$ cd Jetson
-
-$ chmod +x JetsonTX1_Caffe_with_Demo.sh
-
-$ ./JetsonTX1_Caffe_with_Demo.sh
-</code>
 
 
 Installation can continue more then 5 hours and sometimes you need to enter password ubuntu.
