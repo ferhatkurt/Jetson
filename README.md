@@ -1,14 +1,15 @@
-Installation scripts for Jetson TX1 and Jetson TK1.
+<h2>Installation scripts for Jetson TX1 and Jetson TK1.<h2b>
 
-Install Caffe with Web Demo for Jetson TX1 - 32bit
+<h3>Install Caffe with Web Demo for Jetson TX1 - 32bit</h3>
 
-$ git clone https://github.com/ferhatkurt/Jetson.git
+<code>$ git clone https://github.com/ferhatkurt/Jetson.git
 
 $ cd Jetson
 
 $ chmod +x JetsonTX1_Caffe_with_Demo.sh
 
 $ ./JetsonTX1_Caffe_with_Demo.sh
+</code>
 
 
 Installation can continue more then 5 hours and sometimes you need to enter password ubuntu.
