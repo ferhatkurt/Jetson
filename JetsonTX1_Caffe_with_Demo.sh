@@ -1,7 +1,6 @@
 #!/bin/sh
 # Some of the instructions taken from https://github.com/jetsonhacks/installCaffeJTX1
 
-
 sudo add-apt-repository universe
 sudo apt-get update -y
 
@@ -54,8 +53,6 @@ cd build
 cmake ..
 cd ..
 
-
-
 make pycaffe -j3
 make all -j3
 # make test -j3
@@ -94,6 +91,3 @@ sudo /etc/init.d/nginx restart
 
 source ~/.bashrc # Update shell 
 sudo ldconfig
-#start with GPU support
-/bin/echo -e "\e[1;32mStarting Caffe Web Demo, visit localhost\e[0m"
-python examples/web_demo/app.py -g
