@@ -66,10 +66,6 @@ sudo pip install -r examples/web_demo/requirements.txt
 ./data/ilsvrc12/get_ilsvrc_aux.sh
 #Reference CaffeNet Model and the ImageNet Auxiliary Data
 
-# For 64 bit remove apache
-#Remove Apache
-#sudo apt-get remove apache2*
-
 # NGINX
 sudo apt-get install -y nginx
 sudo /etc/init.d/nginx start
